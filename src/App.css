@@ -1,0 +1,47 @@
+.proyecto {
+
+background-color: rgb(48, 48, 59);
+height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.marco {
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.perfil {
+    background-color: rgb(136, 70, 70);
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+}
+.abatar{
+    background-color: rgb(20, 19, 19);
+    height: 150px;
+    width: 150px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 50%;
+    align-items: under;
+    justify-content: right;
+
+}
+.foto {
+    flex: 1;
+    }
+.imagen {
+    height: 50%;
+    width: 90%;
+    border: 1px solid black;
+}
+
